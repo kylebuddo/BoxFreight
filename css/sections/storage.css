@@ -1,0 +1,30 @@
+.storage {
+  width: 100%;
+  background-image: url("../imgs/bgs/storage-r.jpg");
+  background-size: cover;
+  background-position: center left;
+  background-attachment: fixed;
+  margin: 0px; }
+  .storage .storage-container {
+    padding: 40px 35px;
+    min-height: 45end0px; }
+    .storage .storage-container .storage-text {
+      width: 40%; }
+
+@media screen and (max-width: 800px) {
+  .storage {
+    background-image: url("../imgs/bgs/storage-s.jpg");
+    background-position: right; }
+    .storage .storage-container .storage-text {
+      width: 70%; } }
+@media screen and (max-width: 500px) {
+  .storage {
+    background-position: right; }
+    .storage .storage-container .storage-text {
+      width: auto;
+      text-align: center; } }
+@media screen and (min-width: 1900px) {
+  .storage {
+    background-image: url("../imgs/bgs/storage-b.jpg"); } }
+
+/*# sourceMappingURL=storage.css.map */

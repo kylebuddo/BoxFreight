@@ -1,0 +1,118 @@
+.contact {
+  width: 100%; }
+  .contact .contact-holder {
+    background-image: url("../imgs/bgs/contact-r.jpg");
+    background-size: cover;
+    background-position: center top;
+    padding: 40px 35px;
+    display: flex; }
+    .contact .contact-holder .form-box {
+      width: 50%; }
+      .contact .contact-holder .form-box p {
+        font-weight: bold; }
+        .contact .contact-holder .form-box p:first-of-type {
+          margin-bottom: 0px;
+          margin-top: 0px; }
+      .contact .contact-holder .form-box .phone-no {
+        font-size: 3em;
+        font-weight: 100;
+        margin-bottom: 0px;
+        margin-top: 20px; }
+      .contact .contact-holder .form-box img {
+        height: 42px;
+        margin-right: 25px; }
+
+form {
+  margin-top: 30px;
+  color: white;
+  width: 80%;
+  font-size: 0.825em;
+  font-weight: 300; }
+  form .name-phone-holder {
+    display: flex;
+    margin-bottom: 15px;
+    max-width: 450px; }
+    form .name-phone-holder .name-holder {
+      width: 50%;
+      padding-right: 15px; }
+      form .name-phone-holder .name-holder input {
+        width: 100%;
+        margin-top: 5px;
+        color: #242424;
+        font-size: 1.125em;
+        font-weight: 400; }
+    form .name-phone-holder .phone-holder {
+      width: 50%;
+      padding-left: 15px; }
+      form .name-phone-holder .phone-holder input {
+        width: 100%;
+        margin-top: 5px;
+        color: #242424;
+        font-size: 1.125em;
+        font-weight: 400; }
+  form .email-holder {
+    margin-bottom: 15px; }
+    form .email-holder input {
+      width: 100%;
+      max-width: 450px;
+      margin-top: 5px;
+      color: #242424;
+      font-size: 1.125em;
+      font-weight: 400; }
+  form .message-holder textarea {
+    width: 100%;
+    max-width: 450px;
+    margin-top: 5px;
+    height: 150px;
+    color: #242424;
+    font-size: 1.125em;
+    font-weight: 400; }
+  form .submit-holder {
+    max-width: 450px;
+    margin-top: 15px; }
+    form .submit-holder .send-away {
+      border: 2px solid white;
+      padding: 5px 20px;
+      display: inline-block;
+      letter-spacing: 0.5px;
+      float: right; }
+      form .submit-holder .send-away:hover {
+        cursor: pointer; }
+
+@media screen and (max-width: 935px) {
+  .contact .contact-holder {
+    background-image: url("../imgs/bgs/contact-b.jpg");
+    background-size: cover;
+    background-position: left top; }
+    .contact .contact-holder .form-box {
+      width: 70%; }
+
+  form {
+    width: 100%; }
+    form .name-phone-holder {
+      max-width: 100%; }
+    form .email-holder input {
+      max-width: 100%; }
+    form .message-holder textarea {
+      max-width: 100%; }
+    form .submit-holder {
+      max-width: 100%; } }
+@media screen and (max-width: 780px) {
+  .contact .contact-holder {
+    background-image: url("../imgs/bgs/contact-s.jpg"); }
+    .contact .contact-holder .form-box {
+      width: 100%; } }
+@media screen and (max-width: 450px) {
+  .contact .contact-holder .form-box {
+    width: 100%; }
+    .contact .contact-holder .form-box .phone-no {
+      font-size: 2em;
+      font-weight: 100; }
+    .contact .contact-holder .form-box img {
+      height: 30px;
+      margin-right: 15px; } }
+@media screen and (min-width: 1900px) {
+  .contact .contact-holder {
+    background-image: url("../imgs/bgs/contact-b.jpg"); } }
+
+/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,92 @@
+.transport
+	background-color: #25b459
+
+	.holder
+		display: flex
+
+		.left
+			width: 60%
+			display: flex
+			align-items: stretch
+
+
+			.text-area
+				margin: 0px
+				padding: 40px
+
+		.right
+			width: 40%
+			background:
+				image: url('../imgs/bgs/sea-r.jpg')
+				size: cover
+				repeat: no-repeat
+				attachment: fixed
+
+			.map
+				background: 
+					image: url('../imgs/coast.svg')
+					size: contain
+					repeat: no-repeat
+				height: 501px
+
+
+// 1135px media queries
+@media screen and (max-width: 1135px)
+	.transport
+		background:
+			image: url('../imgs/bgs/sea-r.jpg')
+			size: cover
+			repeat: no-repeat
+			attachment: fixed
+		.holder
+			.left
+				width: 100%
+				display: block
+
+				.text-area
+					margin: 0px
+					padding: 40px
+					padding-left: 205px
+					max-width: none
+					width: auto
+					background: 
+						image: url('../imgs/map.svg')
+						size: contain
+						repeat: no-repeat
+
+			
+				.map
+					background: none
+					display: none
+
+			.right
+				display: none
+				width: auto
+				padding-right: 40px
+
+// 800px media queries
+@media screen and (max-width: 800px)
+	.transport
+		background:
+			image: url('../imgs/bgs/sea-s.jpg')
+		.holder
+			.left
+				width: 100%
+				.text-area
+					padding: 40px 35px
+					margin: 0px
+					max-width: none
+					width: auto
+					background: 
+						image: url('../imgs/map-m.svg')
+						size: cover
+						repeat: no-repeat
+						position: center
+					text-align: center
+
+// big background starting at 1900px
+@media screen and (min-width: 1900px)
+	.transport
+		background:
+			image: url('../imgs/bgs/sea-b.jpg')
+

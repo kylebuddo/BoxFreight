@@ -1,0 +1,48 @@
+.sales {
+  width: 100%;
+  background-image: url("../imgs/bgs/sales-s.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0px; }
+  .sales .sales-container {
+    margin: 0px 35px; }
+    .sales .sales-container .sales-holder {
+      max-width: 1440px;
+      margin: 0px auto;
+      padding: 40px 0 0 0;
+      display: flex; }
+      .sales .sales-container .sales-holder .sales-text {
+        width: 50%; }
+      .sales .sales-container .sales-holder .crate {
+        width: 50%;
+        padding-left: 10px; }
+        .sales .sales-container .sales-holder .crate img {
+          width: 100%;
+          position: relative;
+          right: -40px; }
+
+@media screen and (max-width: 900px) {
+  .sales {
+    background-image: url("../imgs/bgs/sales-s.jpg"); }
+    .sales .sales-container .sales-holder {
+      align-items: center; }
+      .sales .sales-container .sales-holder .sales-text p {
+        margin-bottom: 40px; } }
+@media screen and (max-width: 725px) {
+  .sales .sales-container .sales-holder {
+    display: block; }
+    .sales .sales-container .sales-holder .sales-text {
+      width: 100%;
+      text-align: center; }
+    .sales .sales-container .sales-holder .crate {
+      width: 100%;
+      padding: 0px;
+      margin-top: 40px; }
+      .sales .sales-container .sales-holder .crate img {
+        right: -30px; } }
+@media screen and (min-width: 1900px) {
+  .sales {
+    background-image: url("../imgs/bgs/sales-b.jpg"); } }
+
+/*# sourceMappingURL=sales.css.map */

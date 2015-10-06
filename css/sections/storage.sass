@@ -1,0 +1,42 @@
+.storage
+	width: 100%
+	background:
+		image: url('../imgs/bgs/storage-r.jpg')
+		size: cover
+		position: center left
+		attachment: fixed
+	margin: 0px
+
+	.storage-container
+		padding: 40px 35px
+		min-height: 45end0px
+
+		.storage-text
+			width: 40%
+
+// 800px media queries
+@media screen and (max-width: 800px)
+	.storage	
+		background:
+			image: url('../imgs/bgs/storage-s.jpg')
+			position: right
+		.storage-container
+			.storage-text
+				width: 70%
+
+
+// 500px media queries
+@media screen and (max-width: 500px)
+	.storage	
+		background:
+			position: right
+		.storage-container
+			.storage-text
+				width: auto
+				text-align: center
+
+// big background starting at 1900px
+@media screen and (min-width: 1900px)
+	.storage
+		background:
+			image: url('../imgs/bgs/storage-b.jpg')

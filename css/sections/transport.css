@@ -1,0 +1,68 @@
+.transport {
+  background-color: #25b459; }
+  .transport .holder {
+    display: flex; }
+    .transport .holder .left {
+      width: 60%;
+      display: flex;
+      align-items: stretch; }
+      .transport .holder .left .text-area {
+        margin: 0px;
+        padding: 40px; }
+    .transport .holder .right {
+      width: 40%;
+      background-image: url("../imgs/bgs/sea-r.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed; }
+      .transport .holder .right .map {
+        background-image: url("../imgs/coast.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 501px; }
+
+@media screen and (max-width: 1135px) {
+  .transport {
+    background-image: url("../imgs/bgs/sea-r.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; }
+    .transport .holder .left {
+      width: 100%;
+      display: block; }
+      .transport .holder .left .text-area {
+        margin: 0px;
+        padding: 40px;
+        padding-left: 205px;
+        max-width: none;
+        width: auto;
+        background-image: url("../imgs/map.svg");
+        background-size: contain;
+        background-repeat: no-repeat; }
+      .transport .holder .left .map {
+        background: none;
+        display: none; }
+    .transport .holder .right {
+      display: none;
+      width: auto;
+      padding-right: 40px; } }
+@media screen and (max-width: 800px) {
+  .transport {
+    background-image: url("../imgs/bgs/sea-s.jpg"); }
+    .transport .holder .left {
+      width: 100%; }
+      .transport .holder .left .text-area {
+        padding: 40px 35px;
+        margin: 0px;
+        max-width: none;
+        width: auto;
+        background-image: url("../imgs/map-m.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center; } }
+@media screen and (min-width: 1900px) {
+  .transport {
+    background-image: url("../imgs/bgs/sea-b.jpg"); } }
+
+/*# sourceMappingURL=transport.css.map */

@@ -1,0 +1,131 @@
+.landing {
+  background-image: url("../imgs/bgs/highway-r.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; }
+  .landing nav {
+    width: 100%;
+    position: fixed;
+    transition: all 300ms ease-in-out;
+    z-index: 4; }
+    .landing nav ul {
+      margin: 0 auto;
+      padding: 0 35px;
+      max-width: 960px;
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between; }
+      .landing nav ul li {
+        margin: 20px 5px; }
+        .landing nav ul li a {
+          font-size: 15px;
+          font-weight: 100;
+          color: white;
+          text-decoration: none;
+          padding: 5px 25px;
+          text-transform: uppercase;
+          border-radius: 1px;
+          transition: all 300ms ease-in-out;
+          border: solid 1px transparent; }
+          .landing nav ul li a:hover {
+            border: solid 1px white; }
+        .landing nav ul li:last-of-type a {
+          color: #344664;
+          background-color: white; }
+          .landing nav ul li:last-of-type a:hover {
+            color: white;
+            background-color: transparent; }
+  .landing .logo {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .landing .logo img {
+      height: 250px;
+      width: auto; }
+  .landing .onthemove {
+    background-color: white; }
+    .landing .onthemove ul li a {
+      border: none;
+      color: #344664; }
+      .landing .onthemove ul li a:hover {
+        border: none;
+        border-bottom: solid 1px #344664; }
+    .landing .onthemove ul li:last-of-type a {
+      font-weight: bold;
+      background-color: transparent; }
+      .landing .onthemove ul li:last-of-type a:hover {
+        color: #344664;
+        border-bottom: solid 2px #344664; }
+  .landing .mini-nav {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 60px;
+    display: none;
+    z-index: 3; }
+    .landing .mini-nav .threelines {
+      height: 60px;
+      width: 60px;
+      padding: 10px;
+      background-image: url("../imgs/icons/navi.svg");
+      background-size: 50%;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      right: -70px; }
+      .landing .mini-nav .threelines:hover {
+        cursor: pointer; }
+    .landing .mini-nav .dropdown {
+      margin-top: 10px; }
+      .landing .mini-nav .dropdown ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px; }
+        .landing .mini-nav .dropdown ul li {
+          padding: 0px 30px 20px 30px;
+          text-align: right;
+          transform: translateX(140px);
+          transition: all 400ms ease-in-out; }
+          .landing .mini-nav .dropdown ul li a {
+            font-size: 14px;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+            text-align: right;
+            text-transform: uppercase; }
+        .landing .mini-nav .dropdown ul .move-out {
+          transform: translateX(0px); }
+
+@media screen and (max-width: 800px) {
+  .landing {
+    background-image: url("../imgs/bgs/highway-r.jpg"); }
+    .landing nav {
+      width: 100%;
+      position: fixed;
+      margin-left: 0px;
+      left: 0px; } }
+@media screen and (max-width: 675px) {
+  .landing nav {
+    display: none; }
+  .landing .mini-nav {
+    display: block; }
+  .landing .logo {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .landing .logo img {
+      height: auto;
+      width: 75%;
+      position: relative;
+      top: 40px; } }
+@media screen and (min-width: 1900px) {
+  .landing {
+    background-image: url("../imgs/bgs/highway-b.jpg"); } }
+
+/*# sourceMappingURL=landing.css.map */

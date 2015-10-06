@@ -1,0 +1,78 @@
+.sales
+	width: 100%
+	background:
+		image: url('../imgs/bgs/sales-s.jpg')
+		size: cover
+		position: center
+		attachment: fixed
+	margin: 0px
+
+	.sales-container
+		margin: 0px 35px	
+
+		.sales-holder
+			max-width: 1440px
+			margin: 0px auto
+			padding: 40px 0 0 0
+			display: flex
+
+			.sales-text
+				width: 50%
+
+			.crate
+				width: 50%
+				padding-left: 10px
+				
+				img
+					width: 100%
+					position: relative
+					right: -40px
+
+
+// 900px media queries
+@media screen and (max-width: 900px)
+	.sales
+		background:
+			image: url('../imgs/bgs/sales-s.jpg')
+		.sales-container
+			.sales-holder
+				align-items: center
+				.sales-text
+					p
+						margin-bottom: 40px
+
+
+// 725px media queries
+@media screen and (max-width: 725px)
+
+	.sales
+
+		.sales-container
+
+			.sales-holder
+				display: block
+
+				.sales-text
+					width: 100%
+					text-align: center
+
+				.crate
+					width: 100%
+					padding: 0px
+					margin-top: 40px
+					
+					img
+						right: -30px
+
+
+// big background starting at 1900px
+@media screen and (min-width: 1900px)
+	.sales
+		background:
+			image: url('../imgs/bgs/sales-b.jpg')
+
+
+
+
+
+
